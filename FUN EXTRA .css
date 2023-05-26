@@ -6,17 +6,18 @@ body {
     background: rgb(41, 41, 41);
     display: block;
     min-width: 600px;
+    font-size: 1.5vw;
 }
 
 .blocks_mains {
     height: 100%;
     width: 100%;
 
-    min-width: 600px;
+    min-width: 600px    ;
     margin: 0;
     margin-bottom: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14;
+    font-size: 1.5vw;
     background: rgb(44, 44, 44);
     color: rgb(0, 29, 109);
 
@@ -73,7 +74,7 @@ body {
 
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14;
+    font-size: 1.5vw;
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 
@@ -85,7 +86,7 @@ body {
     margin-left: 000px;
     margin-top: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14;
+    font-size: 1.5vw;
     background: #1f1f1f59;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -95,9 +96,9 @@ body {
     min-width: 600px;
     margin-left: 000px;
     margin-top: 10%;
-    margin-bottom: 100%;
+    margin-bottom: 15%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14;
+    font-size: 1.5vw;
     background: #30303059;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -112,7 +113,7 @@ body {
     margin-right: 1%;
     margin-bottom: 10%;
     float: left;
-    font-size: 20px;
+    font-size: 1.5vw;
     background: rgb(27, 27, 27);
     color: rgb(255, 255, 255);
 
@@ -128,27 +129,29 @@ header.Moved h1 {
 }
 
 header.Moved {
-    font-size: 12px;
+    font-size: 3vw;
     opacity: 70%;
-    transition: 0.5s;
     height: 12%;
-    margin-bottom: 10px;
-    margin-right: 2%;
-    width: 0.1%;
-    height: 9.7%;
+    margin-bottom: 1%;
+    height: 2%;
+    width: 3%;
+    
+   
     transition: 0.5s;
 }
 
 header.Moved button {
-    position: under;
-    font-size: 12px;
-    height: 50%;
-    width: 20%;
+    
+    min-width: 30%;
+    min-height: 10%;
+    position: center;
+    font-size: 1vw;
+    
     text-align: 75px;
-    max-height: 20px;
-    margin-top: 1%;
     margin-bottom: 1%;
-    margin-left: 0%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 2%;
     transition: 0.2s;
 
 
@@ -156,6 +159,8 @@ header.Moved button {
 }
 
 header.Moved img {
+    width: 0.1%;
+    height: 9.7%;
     float: left;
     opacity: 75%;
 
@@ -198,7 +203,7 @@ header {
 .nam {
 
     float: right;
-    font-size: 75%;
+    font-size: 1vw;
     color: rgb(255, 255, 255);
     text-align: right;
     transition: 1s;
@@ -213,15 +218,13 @@ header {
     float: top;
     display: center;
     text-align: 75px;
-    min-width: 165px;
-    max-height: 40px;
     padding: 0;
     background: rgb(0, 0, 0);
     border: none;
     outline: rgb(0, 0, 0);
     border-radius: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: 500;
     cursor: pointer;
     color: rgb(255, 255, 255);
@@ -304,10 +307,10 @@ header {
 footer {
     display: block;
     margin-left: 1%;
-    top: 50%;
+    top: 15%;
     right: auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5vw;
     color: #fff;
 }
 
